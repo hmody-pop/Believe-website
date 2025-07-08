@@ -1,0 +1,334 @@
+.afont {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.ls-wider {
+  letter-spacing: 2px;
+}
+.divider {
+  font-size: 1rem;
+  opacity: 0.4;
+  padding-top: 12px;
+}
+@media (min-width: 900px) {
+  .dropdown-menu {
+    left: 100% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.clear-image {
+  filter: contrast(1.2) brightness(1.1) saturate(1.1) sharpen(1px); /* sharpen مو مدعوم رسميًا بكل المتصفحات */
+  transition: all 0.3s ease-in-out;
+}
+/* تشغيل القائمة عند تمرير الماوس */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* تحسين السلاسة */
+.dropdown-menu {
+  transition: all 0.5s ease;
+}
+.custom-overlay {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.custom-outline-hover {
+  border: 2px solid black; /* البوردر الأساسي */
+  color: black; /* لون النص */
+  background-color: transparent; /* بدون خلفية */
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.custom-outline-hover:hover {
+  border-color: #0dcaf0; /* هذا هو لون info في Bootstrap */
+  color: #0dcaf0; /* نغير لون النص معه (اختياري، إذا حبيت) */
+}
+.underline-on-hover {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+/* الخط يظهر عند الهوفر */
+.underline-on-hover::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.underline-on-hover:hover::after {
+  width: 100%;
+}
+.product-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.hover-show {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.product-card:hover .hover-show {
+  opacity: 1;
+}
+.carousel-indicators {
+  justify-content: end;
+}
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+.product-card {
+  position: relative;
+}
+
+.product-card img {
+  display: block;
+  pointer-events: none;
+}
+
+.product-icons {
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.custom-card .dark-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.custom-card:hover .dark-overlay {
+  opacity: 1;
+}
+.card-img-overlay {
+  z-index: 2; /* فوق الطبقة السوداء */
+}
+.custom-card {
+  position: relative;
+}
+
+.product-card {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.product-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+}
+
+.dark-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.product-card:hover .dark-overlay {
+  opacity: 1;
+}
+
+.hover-show {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.product-card:hover .hover-show {
+  opacity: 1;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+.gradient-border {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #007bff 48%, #ff69b4 48%);
+  border-image-slice: 1;
+}
+.tag-btn {
+  background-color: #f8f9fa;
+  border: none;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tag-btn:hover {
+  background-color: #17a2b8; /* info */
+  color: white;
+}
+/* ---------------------------------------------------------form */
+.neon-wrapper {
+  position: relative;
+  background: #0d1117;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 0;
+  min-height: 100vh;
+}
+
+/* فقاعات الخلفية */
+.neon-bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.neon-bubbles span {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 255, 255, 0.2);
+  animation: bubble 20s linear infinite;
+  bottom: -100px;
+  border-radius: 50%;
+}
+
+.neon-bubbles span:nth-child(odd) {
+  background: rgba(255, 0, 200, 0.2);
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-1000px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.neon-bubbles span:nth-child(1) {
+  left: 10%;
+  animation-duration: 15s;
+  width: 25px;
+  height: 25px;
+}
+.neon-bubbles span:nth-child(2) {
+  left: 20%;
+  animation-duration: 20s;
+}
+.neon-bubbles span:nth-child(3) {
+  left: 30%;
+  animation-duration: 12s;
+  width: 15px;
+  height: 15px;
+}
+.neon-bubbles span:nth-child(4) {
+  left: 40%;
+  animation-duration: 18s;
+}
+.neon-bubbles span:nth-child(5) {
+  left: 50%;
+  animation-duration: 16s;
+  width: 30px;
+  height: 30px;
+}
+.neon-bubbles span:nth-child(6) {
+  left: 60%;
+  animation-duration: 19s;
+}
+.neon-bubbles span:nth-child(7) {
+  left: 70%;
+  animation-duration: 22s;
+  width: 10px;
+  height: 10px;
+}
+.neon-bubbles span:nth-child(8) {
+  left: 80%;
+  animation-duration: 14s;
+}
+.neon-bubbles span:nth-child(9) {
+  left: 90%;
+  animation-duration: 25s;
+  width: 35px;
+  height: 35px;
+}
+.neon-bubbles span:nth-child(10) {
+  left: 95%;
+  animation-duration: 17s;
+}
+
+.neon-form-box {
+  background-color: #161b22ee;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+  max-width: 600px;
+  width: 100%;
+  color: white;
+  z-index: 1;
+}
+
+.neon-form-box input,
+.neon-form-box textarea {
+  background-color: transparent;
+  border: 1px solid #3b3b3b;
+  color: #fff;
+}
+
+.neon-form-box input:focus,
+.neon-form-box textarea:focus {
+  border-color: #00f0ff;
+  box-shadow: 0 0 5px #00f0ff;
+}
+
+.neon-send-btn {
+  background: linear-gradient(45deg, #00f0ff, #ff00cc);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #00f0ff, 0 0 20px #ff00cc, 0 0 30px #00f0ff;
+  transition: 0.3s ease-in-out;
+}
+
+.neon-send-btn:hover {
+  box-shadow: 0 0 15px #00f0ff, 0 0 30px #ff00cc, 0 0 40px #00f0ff;
+  transform: scale(1.05);
+}
+
+.neon-form-box label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

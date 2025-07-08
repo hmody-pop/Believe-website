@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon"  type="image/png"  sizes="192x192" href="./image/BB-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Believe</title>
+    <style>
+      .transition-hover {
+        transition: color 0.2s ease;
+      }
+  body{
+    overflow-y: scroll;
+  }    
+    </style>
+  </head>
+
+  <body>
+    <!-- Top Bar------------------------------------------------------------------------------------------>
+    <div
+      class="bg-primary-subtle text-white py-2 position-relative"
+      style="background-color: #3e396b !important"
+    >
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-4 text-center text-md-start"
+      >
+        <!-- Left -->
+        <div>
+          <small
+            ><a href="index.html" class="text-white"
+              ><i
+                class="bi bi-telephone pe-1 rounded text-white transition-hover link-info"
+                style="background-color: #4c478a; padding: 3px"
+              ></i
+            ></a>
+            (+800) 123 456 7890</small
+          >
+          <span class="mx-1">|</span>
+          <a href="index.html" class="text-decoration-none text-white"
+            ><small
+              ><i
+                class="bi bi-envelope pe-1 rounded text-white transition-hover link-info"
+                style="background-color: #4c478a; padding: 3px"
+              ></i>
+              info@bootstrapmart.com</small
+            ></a
+          >
+        </div>
+
+        <!-- message in center-->
+        <div
+          class="alert alert-primary alert-dismissible fade show text-white px-5 mb-0 border-1 me-2 p-1 position-relative d-md-none d-lg-block"
+          role="alert"
+          style="background-color: #4c478a"
+        >
+          Free Shipping on
+          <a href="index.html" class="text-info text-decoration-none fw-bold"
+            >All Orders Over $79!</a
+          >
+
+          <!-- button close-->
+          <button
+            type="button"
+            class="btn-close btn-close-white position-absolute"
+            style="top: -0.7rem; right: 0.5rem"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <!-- Right -->
+        <div>
+          <a
+            href="#"
+            class="text-white text-decoration-none me-2 link-info transition-hover"
+            >Track Order</a
+          >
+          <span class="fw-semibold pe-1 text-dark">.</span>
+          <a
+            href="#"
+            class="text-white text-decoration-none me-2 link-info transition-hover"
+            >Register</a
+          >
+          <small class="fw-semibold pe-2 text-dark">.</small>
+          <a
+            href="#"
+            class="text-white text-decoration-none link-info transition-hover"
+            >Login</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- End Top Bar ----------------------------------------------------------------------------------------->
+    <!-- Nav Bar 1 ----------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom py-3">
+      <div class="container">
+        <!-- الشعار -->
+        <a
+          style="font-size: 35px"
+          class="navbar-brand fw-bold afont text-lg-start pt-0"
+          href="index.html"
+        >
+          Believe
+        </a>
+
+        <!-- زر التبديل للشاشات الصغيرة -->
+        <button
+          class="navbar-toggler border-dark border border-3 rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- المحتوى القابل للطي -->
+        <div
+          style="margin-right: 10rem; font-size: 13px"
+          class="collapse navbar-collapse justify-content-center mt-2 me-5"
+          id="navbarContent"
+        >
+          <!-- قائمة التنقل -->
+          <ul class="navbar-nav mb-2 mb-lg-0 gap-4 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link text-info fw-bold" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark transition-hover link-info" href="./Blog.html"
+                >BLOG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark transition-hover link-info" href="./Blog-Post.html"
+                >BLOG POST</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark transition-hover link-info" href="#"
+                >CONTACT</a
+              >
+            </li>
+            <li class="nav-item" style="max-width: 40%">
+              <a
+                style="background-color: #7880eb9d"
+                class="afont nav-link rounded-pill text-dark transition-hover link-primary ls-wider ps-3"
+                href="#"
+              >
+                BUY PRO VERSION <i class="bi bi-gem ms-1 text-primary"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!--  حقل البحث الظاهر في الشاشات الصغيرة -->
+          <div class="d-lg-none mt-4 w-75">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-1 border-info"
+                type="search"
+                placeholder="Search...🤔"
+                aria-label="Search"
+              />
+              <a href="index.html">
+                <button
+                  class="btn btn-info border-info transition-hover link-info"
+                  type="submit"
+                >
+                  <i
+                    class="bi bi-search text-white transition-hover link-dark"
+                  ></i>
+                </button>
+              </a>
+            </form>
+          </div>
+
+          <!-- الأيقونات في الشاشات الصغيرة -->
+          <div class="d-flex d-lg-none gap-4 mt-3 w-100">
+            <a href="index.html" class="position-relative text-decoration-none">
+              <i style="color: #3e396b" class="bi bi-heart fs-1"></i>
+              <span
+                class="text-white position-absolute top-50 start-100 translate-middle badge rounded-pill bg-dark"
+                >5</span
+              >
+            </a>
+            <a href="index.html" class="position-relative text-decoration-none">
+              <i style="color: #3e396b" class="bi bi-bag fs-1"></i>
+              <span
+                class="text-white position-absolute top-50 start-100 translate-middle badge rounded-pill bg-dark"
+                >2</span
+              >
+            </a>
+          </div>
+        </div>
+
+        <!--  الأيقونات في الشاشات الكبيرة -->
+        <div
+          class="position-relative d-flex d-none d-lg-flex align-items-center gap-4"
+        >
+          <!-- زر البحث المنسدل -->
+          <div class="dropdown">
+            <button
+              style="color: #3e396b; margin-right: -1rem"
+              class="btn btn-white"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="bi bi-search fs-3" style="color: #3e396b"></i>
+            </button>
+            <div
+              class="position-absolute top-25 start-100 mt-3 translate-middle-x dropdown-menu"
+              style="background-color: #3e396b; min-width: 260px"
+            >
+              <form class="px-1 d-flex" role="search">
+                <input
+                  class="form-control me-1 border-info"
+                  type="search"
+                  placeholder="Search...🤔"
+                  aria-label="Search"
+                />
+                <button class="btn btn-dark" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- أيقونة القلب -->
+          <a
+            href="index.html"
+            class="position-relative text-decoration-none ms-"
+          >
+            <i style="color: #3e396b" class="bi bi-heart fs-3"></i>
+            <span
+              class="text-white position-absolute top-50 start-100 translate-middle-x badge rounded-pill bg-dark"
+              >5</span
+            >
+          </a>
+
+          <!-- أيقونة السلة -->
+          <a href="index.html" class="position-relative text-decoration-none">
+            <i style="color: #3e396b" class="bi bi-bag fs-3"></i>
+            <span
+              class="text-white position-absolute top-50 start-100 translate-middle-x badge rounded-pill bg-dark"
+              >2</span
+            >
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav Bar 1 ----------------------------------------------------------------------------------------------->
+
+    <!--  Nav Bar 2----------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-dark py-0 d-block">
+      <div class="container justify-content-center">
+        <!-- زر التوغل -->
+        <button class="navbar-toggler border-2 border ms-auto rounded-pill my-2" type="button"
+          data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+        </button>
+    
+        <!-- قائمة التنقل الرئيسية القابلة للطي -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav gap-2 text-uppercase small fw-bold" style="font-size: 0.8rem">
+            <li class="nav-item">
+              <a  style="padding-top: 12px;" class="nav-link  text-info border-top border-3 border-info transition-hover link-info px-2"
+                href="index.html">Electronics</a>
+            </li>
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+    
+            <!-- زر القائمة المنسدلة MEN -->
+            <li class="nav-item dropdown ms-auto d-flex justify-content-end d-lg-block d-sm-none">
+              <button class="btn mt-2 fw-bold text-secondary  border-secondary border-0 dropdown-toggle transition-hover link-info"
+                data-bs-auto-close="false" id="menDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+                type="button">
+                MEN
+              </button>
+              <ul class="dropdown-menu px-2 py-1" aria-labelledby="menDropdown" style="min-width: 1200px;">
+                <div class="row">
+                  <!-- قائمة الملابس -->
+                  <div class="col-md-2">
+                    <h6 class="fw-bold mt-2 text-dark">ALL CLOTHING</h6>
+                    <ul class="list-unstyled" style="font-size: 12px; line-height: 1.8rem;">
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">T-Shirts</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Casual & Party Wear Shirts</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Jeans</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Formal Shirts</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Sports Wear</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Trousers</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Suits and Blazers</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Ethnic Wear</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Inner & Sleep Wear</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Accessories</a></li>
+                    </ul>
+                  </div>
+    
+                  <!-- قائمة الأحذية -->
+                  <div class="col-md-2 border-start border-1 ps-4 border-secondary">
+                    <h6 class="fw-bold  mt-2 text-dark">ALL FOOTWEAR</h6>
+                    <ul class="list-unstyled" style="font-size: 12px; line-height: 26.5px;">
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Flats</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Heels</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Bellies</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Wedges</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Slippers & Flip-Flop's</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Sports Shoes</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Sports Sandals</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Casual Shoes</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Formal Shoes</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Ethnic</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Boots</a></li>
+                      <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Wedges</a></li>
+
+                    </ul>
+                  </div>
+    
+                  <!-- المنتجات  -->
+                  <div class="col-md-4 position-relative">
+                    <h6 class="fw-bold mt-2 text-dark">FEATURED PRODUCTS</h6>
+                    <div class="d-flex">
+                      <!-- كاروusel أول -->
+                      <div class="ms-0 text-center">
+                        <div id="slides-with-indicators" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                          <div class="carousel-indicators position-absolute top-0 end-0 m-0 mt-2 ms-0">
+                            <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="0"
+                              class="active bg-warning rounded-circle" style="width: 10px; height: 10px;" aria-current="true"
+                              aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="1"
+                              class="bg-warning rounded-circle" style="width: 10px; height: 10px;" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="2"
+                              class="bg-warning rounded-circle" style="width: 10px; height: 10px;" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner rounded">
+                            <div class="carousel-item active text-center">
+                              <img src="./image/ai-generated-8751040_1280.png" width="200" height="200" class="mb-4 rounded" alt="Slide 1" />
+                            <div class="carousel-caption">
+                              <div class="pe-auto">
+                              <div class="position-absolute d-flex flex-row mb-1 pb-5 gap-3  top-0 start-25 translate-middle-y">
+                              <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                              <button class="btn btn-outline-dark rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                              <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                            </div>
+                          
+                              <div class="position-absolute bottom-0 start-25 mb-2 ms-0">
+                                <button style="font-size:15px;" class="btn btn-outline-dark border-2 text-warning fw-bold p-2 px-0 py-0 rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                              </div>
+                            </div>
+                            </div>
+                            </div> 
+                          
+                            <div class="carousel-item text-center rounded">
+                              <img src="./image/jacket-1.jpg" width="200" height="200" class="mb-4 rounded" alt="Slide 2" />
+                              <div class="carousel-caption">
+                                <div class="pe-auto">
+                                <div class="position-absolute d-flex flex-row mb-1 pb-5 gap-3  top-0 start-25 translate-middle-y">
+                                <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                <button class="btn btn-outline-dark rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                              </div>
+                          
+                                <div class="position-absolute bottom-0 start-25 mb-2 ms-0">
+                                  <button style="font-size:15px;" class="btn btn-outline-dark border-2 text-warning fw-bold p-2 px-0 py-0 rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          
+                            <div class="carousel-item text-center rounded">
+                              <img src="./image/shoes-1.jpg" width="200" height="200" class="mb-4 rounded" alt="Slide 2" />
+                              <div class="carousel-caption">
+                                <div class="pe-auto">
+                                <div class="position-absolute d-flex flex-row mb-1 pb-5 gap-3  top-0 start-25 translate-middle-y">
+                                <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                <button class="btn btn-outline-dark rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                              </div>
+
+                                <div class="position-absolute bottom-0 start-25 mb-2 ms-0">
+                                  <button style="font-size:15px;" class="btn btn-outline-dark border-2 text-warning  fw-bold p-2 px-0 py-1 rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                            <!-- carousel-item-->
+                        <p class="mb-0">STRIPED MEN'S ROUND NECK T-SHIRT</p>
+                        ⭐⭐⭐⭐☆
+                        <p>
+                          <s>$19.00</s> <span class="text-primary">$15.00</span>
+                        </p>
+                      </div>
+                      <div class="text-center ms-2 ">
+                        <div id="slides-with-indicators" class="carousel carousel-fade" data-bs-interval="2000">
+  
+                          <!-- Indicators -->
+                          <div class="carousel-indicators position-absolute top-0 end-0 m-0 mt-2 ms-0  ">
+                            <button 
+                              type="button" 
+                              data-bs-target="#slides-with-indicators" 
+                              data-bs-slide-to="0" 
+                              class="active bg-warning rounded-circle"
+                              style="width: 10px; height: 10px;" 
+                              aria-current="true" 
+                              aria-label="Slide 1">
+                            </button>
+                            <button 
+                              type="button" 
+                              data-bs-target="#slides-with-indicators" 
+                              data-bs-slide-to="1" 
+                              class="bg-warning rounded-circle"
+                              style="width: 10px; height: 10px;" 
+                              aria-label="Slide 1">
+                            </button>
+                            <button 
+                              type="button" 
+                              data-bs-target="#slides-with-indicators" 
+                              data-bs-slide-to="2" 
+                              class="bg-warning rounded-circle"
+                              style="width: 10px; height: 10px;" 
+                              aria-label="Slide 2">
+                            </button>
+                          </div>
+                        
+                          <!-- Slides -->
+                          <div class="carousel-inner rounded ">
+                            <div class="carousel-item active text-center">
+                              <img src="./image/ai-generated-8702726_1280.jpg" width="200" height="200" class="mb-4 rounded" alt="Slide 1" />
+                        <div class="carousel-caption">
+                                <div class="pe-auto">
+                                <div class="d-flex flex-row mb-3 pb-0 gap-3  ">
+                                <button class="btn btn-outline-dark border-2 rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                <button class="btn btn-outline-dark border-2 rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                <button class="btn btn-outline-dark border-2 rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                              </div>
+                              <div class=" pb-5 mb-5 ">
+                                <button style="font-size:15px;" class="btn btn-outline-dark border-2 border-2 text-warning  fw-bold py-0 px-0  rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                              </div>
+                            </div>
+                            </div>
+                        <p class="mb-0">STRIPED MEN'S ROUND NECK T-SHIRT</p>
+                        ⭐⭐⭐⭐☆
+                        <p>
+                          <s>$19.00</s> <span class="text-primary">$15.00</span>
+                        </p>
+                      </div>
+                    </div>
+                      <div class="col-md-2">
+                      <img
+                      style="position: absolute; top: 0; right: -21rem; width: 19rem; height: 322px;"
+                      src="./image/mega-offers.jpg"
+                        class="img   rounded"
+                        alt="Jeans Ad"
+                      />
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+    
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Women</a>
+            </li>
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Baby & Kids</a>
+            </li>
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Books & Media</a>
+            </li>
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Home & Kitchen</a>
+            </li>
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">More Stores</a>
+            </li>
+            <li class="divider text-secondary d-none d-lg-block">|</li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Offers Zone</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html"><img src="./image/offers.png" alt="show" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--End Nav Bar  2----------------------------------------------------------------------------------------------->
+<!-- hero slide ------------------------------------------------------------------------------------ -->
+<div id="fashionCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+  <!-- المؤشرات -->
+  <div class="carousel-indicators gap-2 position-absolute start-0 translate-middle-x" style="bottom: 20px;">
+    <button type="button" data-bs-target="#fashionCarousel" data-bs-slide-to="0" class="active rounded-circle"
+      style="background-color: blue; width: 10px; height: 10px;" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#fashionCarousel" data-bs-slide-to="1" class="rounded-circle"
+      style="background-color: #e84c8b; width: 10px; height: 10px;" aria-label="Slide 2"></button>
+  </div>
+  
+
+  <div class="carousel-inner">
+    <!-- الشريحة الأولى -->
+    <div class="carousel-item active position-relative">
+      <img src="./image/slider-1.jpg" class="d-block w-100 border-bottom border-primary border-5 gradient-border" alt="Men Fashion"
+        style="filter: contrast(1.1) brightness(1.05) saturate(1.1); position: relative; z-index: 0;">
+
+      <!-- نص اليسار -->
+      <div class="carousel-caption text-start text-white"
+        style="z-index: 2; position: absolute; left: 9%; bottom: 13%; text-align: left;">
+        <h1 style="font-size: clamp(1.5rem, 4vw, 3rem)" class="fw-bold pb-3 text-primary display-5 display-md-3" >MEN’S <br><span class="text-white">FASHION</span></h1>
+        <p class="pb-4 fs-6 fs-md-5">Discover the latest <br> trends in men’s clothing.</p>
+        <a href="index.html" class="btn btn-primary fw-bold fs-6 fs-md-4 border-secondary">SHOP NOW</a>
+      </div>
+
+      <!-- نص اليمين -->
+      <div class="carousel-caption text-white"
+        style="z-index: 2; position: absolute; right: 9%; bottom: 13%; text-align: right;">
+        <h1 class="fw-bold pb-3" style="color:#e84c8b; font-size: clamp(1.5rem, 4vw, 3rem);">WOMEN’S <br><span class="text-white">FASHION</span></h1>
+        <p class="pb-4 fs-6 fs-md-5">Discover the latest <br> trends in women’s clothing.</p>
+        <a href="index.html" class="btn btn-secondary fw-bold fs-6 fs-md-4" style="background-color: #e84c8b;">SHOP NOW</a>
+      </div>
+    </div>
+
+    <!-- الشريحة الثانية -->
+    <div class="carousel-item position-relative">
+      <img src="./image/slider-2.jpg" class="d-block w-100" alt="Women Fashion"
+        style="filter: contrast(1.1) brightness(1.05) saturate(1.1); position: relative; z-index: 0;">
+      <div class="carousel-caption text-start text-white"
+        style="  z-index: 2; position: absolute; left: 9%; bottom: 10%; text-align: left;">
+        <h1 class="fw-bold pb-3 text-primary" style="font-size: clamp(2rem, 6vw, 55px);">50% <span class="text-primary">PRICE CUT</span></h1>
+        <p class="pb-4 fs-6 fs-md-4 text-white">Discover the latest <br> trends in men’s clothing.</p>
+        <a href="index.html" class="btn btn-primary fw-bold fs-6 fs-md-4">SHOP NOW</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End hero slide ------------------------------------------------------------------------------------ -->
+<br>
+<!-- cards3 ---------------------------------------------------------------------------------------------- -->
+<section class="my-5">
+  <div class="container">
+    <div class="row text-center justify-content-center g-5">
+
+      <!-- Man Category -->
+      <div class="col-md-4  position-relative">
+        <img src="./image/cat-1.jpg" class="img-fluid w-100" alt="man">
+        <div style="font-size: 2rem; top: 50%; left: 28%" class="custom-overlay  text-white">
+          <h1 style=" letter-spacing: 5px; font-family: Bebas" class="ps-2 fs-1  fw-bold text-dark">MAN</h1>
+          <p class="fs-4 afont text-secondary">Clothing</p>
+          <a href="index.html" class="afont btn custom-outline-hover ">BUY NOW</a>
+        </div>
+      </div>
+
+      <!-- Woman Category -->
+      <div class="col-md-4 position-relative">
+        <img src="./image/cat-2.jpg" class="img-fluid w-100" alt="woman">
+        <div style="font-size: 2rem; top: 50%; left: 69%" class="custom-overlay  text-white">
+          <h1 style="font-family: Bebas" class="fs-1 afont fw-bold text-dark ">WOMAN</h1>
+          <p class="afont text-secondary">Clothing</p>
+          <a href="index.html" class="custom-outline-hover afont btn ">BUY NOW</a>
+        </div>
+      </div>
+
+      <!-- Accessories Category -->
+      <div class="col-md-4 position-relative">
+        <img src="./image/cat-3.jpg" class="img-fluid w-100" alt="accessories">
+        <div style="font-size: 2rem; top: 78%; left: 50%" class="custom-overlay  text-white">
+          <h1 style="font-family: Bebas" class="fs-1 afont fw-bold text-dark">ACCESSORIES</h1>
+          <p class="fs-5 afont text-secondary">COLLECTIONS - 2014</p>
+          <a href="index.html" class="custom-outline-hover mb-3 afont btn">SHOP NOW</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Cards3 ---------------------------------------------------------------------------------------------->
+<br>
+<!-- TABS % CAROUSEL _-------------------------------------------------------------------------------------------->
+<section>
+<div class="container mt-5">
+  <!-- Nav Tabs -->
+  <ul class="nav nav-tabs  d-flex justify-content-center gap-4 mb-5 fw-bold " id="productTabs" role="tablist">
+    <li style="font-family: Bebas;" class="nav-item" role="presentation">
+      <button 
+      style="letter-spacing: 2px;"
+        class="nav-link active  "
+        id="featured-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#featured"
+        type="button"
+        role="tab"
+      >
+        Featured
+      </button>
+    </li>
+    <li style="font-family: Bebas;" class="nav-item" role="presentation">
+      <button 
+      style="letter-spacing: 2px;"
+        class="nav-link "
+        id="new-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#new"
+        type="button"
+        role="tab"
+      >
+        New Arrivals
+      </button>
+    </li>
+    <li style="font-family: Bebas;" class="nav-item" role="presentation">
+      <button
+      style="letter-spacing: 2px;"
+        class="nav-link"
+        id="best-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#best"
+        type="button"
+        role="tab"
+      >
+        Best Seller
+      </button>
+    </li>
+  </ul>
+  
+
+  <!-- Tab Content -->
+  <div class="tab-content mt-3 ms-3 d-flex justify-content-center" id="productTabsContent">
+   <!-- Featured Tab -->
+<div class="tab-pane fade show active" id="featured" role="tabpanel">
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <!-- كرت 1 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel1" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+            <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+        
+        </div>
+        <div class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover  ">Adidas Shoes</h6>
+          <div class="text-warning small mb-1">★★★★☆</div>
+          <div class="small"><del class="text-muted">$19.00</del> <span class="text-primary">$15.00</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كرت 2 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel2" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+          
+        </div>
+        <div  class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Nike Jacket</h6>
+          <div class="text-warning small mb-1">★★★★★</div>
+          <div class="small"><del class="text-muted">$29.00</del> <span class="text-primary">$21.00</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كرت 3 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel3" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item ">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+          
+        </div>
+        <div class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Classic Jeans</h6>
+          <div class="text-warning small mb-1">★★★☆☆</div>
+          <div class="small"><del class="text-muted">$25.00</del> <span class="text-primary">$19.00</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كرت 4 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel4" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item ">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" style="width: 500px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+          
+        </div>
+        <div class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Simple T-Shirt</h6>
+          <div class="text-warning small mb-1">★★★★☆</div>
+          <div class="small"><del class="text-muted">$14.00</del> <span class="text-primary">$9.00</span></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- كرت 5 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel5" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container">
+              <img src="./image/slides-7.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+        
+        </div>
+        <div class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Adidas Shoes</h6>
+          <div class="text-warning small mb-1">★★★★☆</div>
+          <div class="small"><del class="text-muted">$19.00</del> <span class="text-primary">$15.00</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كرت 6 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel6" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel6" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active  position-relative image-container">
+              <img src="./image/slides-5.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+          
+        </div>
+        <div  class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Nike Jacket</h6>
+          <div class="text-warning small mb-1">★★★★★</div>
+          <div class="small"><del class="text-muted">$29.00</del> <span class="text-primary">$21.00</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كرت 7 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2 position-relative">
+        <div id="carousel7" class="carousel slide" data-bs-ride="false">
+          <!-- Indicators -->
+          <div class="carousel-indicators position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+    
+          <!-- Carousel Images -->
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container">
+              <img src="./image/slides-8.png" class="d-block w-100 product-img" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item position-relative image-container">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item position-relative image-container">
+              <img src="./image/t-shirt-7973394_1280.jpg" class="d-block w-100 product-img" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item position-relative image-container">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- أيقونات -->
+        <div class="position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+        </div>
+    
+        <!-- زر إضافة للعربة -->
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary mb-3 btn-sm">
+            <i style="font-size: 16px;" class="bi bi-bag fw-bold me-2"></i>Add to Cart
+          </button>
+        </div>
+    
+        <!-- معلومات المنتج -->
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Classic Jeans</h6>
+          <div class="text-warning small mb-1">★★★☆☆</div>
+          <div class="small"><del class="text-muted">$25.00</del> <span class="text-primary">$19.00</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- كرت 8 -->
+    <div class="col">
+      <div class="product-card shadow-lg bg-white p-2">
+        <div id="carousel8" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators text-dark position-absolute top-0 end-0 m-2">
+            <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel8" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative image-container  ">
+              <img src="./image/slides-9.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item image-container">
+              <img src="./image/jeans-slides-3.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+            </div>
+            <div class="carousel-item ">
+              <img src="./image/shoes.slides-1.png" class="d-block w-100 product-img" style="width: 250px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+
+            </div>
+            <div class="carousel-item">
+              <img src="./image/jacket-slides-2.png" class="d-block w-100 product-img" style="width: 500px; height: 250px; object-fit: cover;" alt="...">
+              <div class="dark-overlay"></div>
+
+            </div>
+          </div>
+          
+        </div>
+        <div class=" position-absolute top-0 start-0 m-3 mt-5 d-flex flex-column gap-2 product-icons hover-show">
+          <button class="btn btn-dark rounded-circle shadow-lg "><i class="bi bi-heart"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-arrow-repeat"></i></button>
+          <button class="btn btn-dark rounded-circle shadow-lg"><i class="bi bi-search"></i></button>
+          
+        </div>
+        <div class="position-absolute top-0 start-0 m-2 hover-show">
+          <button class="btn btn-secondary  mb-3 btn-sm"> <i style="font-size: 16px;" class="bi bi-bag fw-bold  me-2"></i>Add to Cart</button>
+        </div>
+        <div class="text-center mt-3 fs-5">
+          <h6 style="font-family: Bebas;" class="fw-bold mb-1 small underline-on-hover">Simple T-Shirt</h6>
+          <div class="text-warning small mb-1">★★★★☆</div>
+          <div class="small"><del class="text-muted">$14.00</del> <span class="text-primary">$9.00</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<div class="mt-0 position-relative tab-pane fade show d-sm-none" id="new" role="tabpanel">
+  <img style="width: 1300px; margin-right: 1rem;" src="./image/EEEEE.png" alt="img">
+  <a href="#" 
+     class="position-absolute btn mt-1 pe-1 px-3 link-dark" 
+     style="background-color: #63d1f5; color: white; top: 333px; left: 783px;">
+    DISCOVER MORE PRODUCT
+  </a>
+</div>
+    <div class="tab-pane fade show" id="best" role="tabpanel">
+      <p>🔥 Best-selling products customers love</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-- End TABS % CAROUSEL _-------------------------------------------------------------------------------------------->
+<br><br><br><br>
+<!-- img --------------------------------------------------------------------------------------------------------------->
+<section class="d-sm-none d-lg-block">
+  <div class="mt-5 ms-4 position-relative tab-pane fade show" id="new" role="tabpanel">
+    <img style="width: 1300px; margin-right: 1rem;" src="./image/EEEEE.png" alt="img">
+    <a href="#" 
+       class="position-absolute btn mt-1 pe-1 px-3 link-dark" 
+       style="background-color: #63d1f5; color: white; top: 333px; left: 783px;">
+      DISCOVER MORE PRODUCT
+    </a>
+  </div>
+</section>
+<!--End img --------------------------------------------------------------------------------------------------------------->
+<br><br><br>
+<!-- BRANDS ---------------------------------------------------------------------------------------------------------------->
+<hr>
+ <div class="container my-5">
+  <h4  style=" letter-spacing: 3px; font-family: Bebas" class="text-center fs-2 mb-4   text-decoration-underline text-info pb-2  pb-4"><span class="text-dark ">BRANDS</span></h4>
+  <div id="brandCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center">
+      <div class="carousel-item active"data-bs-interval="1000">
+        <div class=" d-flex justify-content-center  flex-wrap">
+          <img src="./image/brand-1.png" alt="Envato" class="img-flui" style="height: 95px;">
+          <img src="./image/brand-2.png" alt="Videohive" class="img-fluid" style="height: 95px;">
+          <img src="./image/brand-3.png" alt="Activeden" class="img-fluid" style="height: 95px;">
+          <img src="./image/brand-4.png" alt="Audiojungle" class="img-fluid" style="height: 95px;">
+          <img src="./image/brand-5.png" alt="Codecanyon" class="img-fluid" style="height: 95px;">
+        </div>
+      </div>
+      <!-- شريحة ثانية (اختياري) -->
+      <div class="carousel-item "data-bs-interval="1500">
+        <div class="d-flex justify-content-center  flex-wrap">
+        <img src="./image/brand-5.png" alt="Activeden" class="img-fluid" style="height: 95px;">
+        <img src="./image/brand-4.png" alt="Videohive" class="img-fluid" style="height:95px;">
+        <img src="./image/brand-2.png" alt="Envato" class="img-fluid" style="height:95px;">
+        <img src="./image/brand-3.png" alt="Codecanyon" class="img-fluid" style="height:95px;">
+        <img src="./image/brand-1.png" alt="Audiojungle" class="img-fluid" style="height:95px;">
+        </div>
+      </div>
+    </div>
+
+    <!-- أسهم -->
+     <div class="d-flex justify-content-between">
+    <button  style="left: -70px;" class="carousel-control-prev" type="button" data-bs-target="#brandCarousel" data-bs-slide="prev">
+      <span style="filter: invert(1);" class="carousel-control-prev-icon"></span>
+    </button>
+    <button  style="right: -70px;" class="carousel-control-next" type="button" data-bs-target="#brandCarousel" data-bs-slide="next">
+      <span style="filter: invert(1);" class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </div>
+</div>
+<hr>
+<!-- END BRANDS ---------------------------------------------------------------------------------------------------------------->
+<br><br>
+<!-- BLOGS ---------------------------------------------------------------------------------------------------------------------->
+<div class="section mt-5">
+  <div class="container">
+    <h4 style="letter-spacing: 3px; font-family: Bebas;" class="text-center fs-2 mb-4 text-info pb-4 text-decoration-underline">
+      <span class="text-dark">THE BLOG</span>
+    </h4>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4 mb-4">
+        <div class="img-top text-center">
+          <img src="./image/sun-2.jpg" alt="sun" class="img-fluid mb-2">
+          <a href="#" class="fw-bold text-dark text-decoration-none d-block">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque! <br>
+            <small class="text-secondary">May 11, 2014</small>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="img-top text-center">
+          <img src="./image/mug-1.jpg" alt="mug" class="img-fluid mb-2">
+          <a href="#" class="fw-bold text-dark text-decoration-none d-block">
+            Voluptatem accusantium doloremque <br>
+            <small class="text-secondary">May 11, 2014</small>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="img-top text-center">
+          <img src="./image/work-3.jpg" alt="work" class="img-fluid mb-2">
+          <a href="#" class="fw-bold text-dark text-decoration-none d-block">
+            Voluptatem accusantium doloremque <br>
+            <small class="text-secondary">May 11, 2014</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END BLOGS ---------------------------------------------------------------------------------------------------------------------->
+<br><br>
+<!-- footer ------------------------------------------------------------------------------------------------------------------------------->
+<footer style="background-color: #242424;" class="text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- العمود الأول (كل شيء عدا الاشتراك) -->
+      <div class="col-12 col-md-9">
+        <div class="row">
+
+          <!-- Welcome to -->
+          <div class="col-12 col-md-4 mb-4">
+            <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">Welcome to</h6>
+            <h4 class="fw-bold afont fs-2">Believe</h4>
+            <p style="font-size: 15px;">Believe isCommerce WordPress theme. It <br> has <br>
+              everything you need to start today!<br>
+              <small class="text-secondary">Get this theme on ThemeForest!</small>
+            </p>
+            <div class="d-flex gap-4 fs-5">
+              <a href="#"><i class="fab fa-facebook-f text-primary"></i></a>
+              <a href="#"><i class="fab fa-twitter text-info"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+              <a href="#"><i style="color: orange;" class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p text-danger"></i></a>
+            </div>
+          </div>
+
+          <!-- روابط سريعة -->
+          <div class="col-6 col-md-2 mb-4">
+            <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Home</a></li>
+              <li><a href="#" class="text-light transition-hover link-info text-decoration-none">About Us</a></li>
+              <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Contact Us</a></li>
+              <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Deals</a></li>
+              <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Blog</a></li>
+              <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Help</a></li>
+            </ul>
+          </div>
+
+          <!-- شروط وسياسات -->
+          <div class="col-6 col-md-2 mb-4">
+            <ul class="list-unstyled mt-5">
+              <li><a href="#" class="text-light text-decoration-none">Terms & Condition</a></li>
+              <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Legal Disclaimer</a></li>
+            </ul>
+          </div>
+
+          <!-- حسابي -->
+          <div class="col-6 col-md-2 mb-4">
+            <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">My Account</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">My Account</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Personal Information</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Addresses</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Orders</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Wishlist</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Track Order</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- العمود الثاني (الاشتراك) -->
+      <div class="col-12 col-md-3 mb-4">
+        <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">Subscribe for offers & updates</h6>
+        <p>Enter your email and we’ll send you a coupon with 10% off your next order. Add any text here</p>
+        <input type="email" class="form-control mb-2" placeholder="Enter Your email... 💌">
+        <button class="btn btn-info w-100 text-white fw-bold">Subscribe Now</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- آخر جزء -->
+  <div class="text-center text-secondary pt-4 pb-3" style="margin-top: 2rem; font-size: 0.9rem; background-color: #1a1a1a; border-top: 1px solid #333;">
+    Copyright 2018. Designed and Developed by 
+    <span class="text-light">BootstrapMart</span> & Distributed by 
+    <span class="text-light">ThemeWagon</span>
+  </div>
+</footer>
+<!-- end footer------------------------------------------------------------------------------------------------------ -->
+</body>    
+</html>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./enable-stuff.js"></script>
+

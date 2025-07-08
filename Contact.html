@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/png"  sizes="192x192" href="./image/BB-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Blog</title>
+</head>
+<body>
+    <body>
+        <!-- Top Bar------------------------------------------------------------------------------------------>
+        <div
+          class="bg-primary-subtle text-white py-2 position-relative"
+          style="background-color: #3e396b !important"
+        >
+          <div
+            class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-4 text-center text-md-start"
+          >
+            <!-- Left -->
+            <div>
+              <small
+                ><a href="index.html" class="text-white"
+                  ><i
+                    class="bi bi-telephone pe-1 rounded text-white transition-hover link-info"
+                    style="background-color: #4c478a; padding: 3px"
+                  ></i
+                ></a>
+                (+800) 123 456 7890</small
+              >
+              <span class="mx-1">|</span>
+              <a href="index.html" class="text-decoration-none text-white"
+                ><small
+                  ><i
+                    class="bi bi-envelope pe-1 rounded text-white transition-hover link-info"
+                    style="background-color: #4c478a; padding: 3px"
+                  ></i>
+                  info@bootstrapmart.com</small
+                ></a
+              >
+            </div>
+    
+            <!-- message in center-->
+            <div
+              class="alert alert-primary alert-dismissible fade show text-white px-5 mb-0 border-1 me-2 p-1 position-relative d-md-none d-lg-block"
+              role="alert"
+              style="background-color: #4c478a"
+            >
+              Free Shipping on
+              <a href="index.html" class="text-info text-decoration-none fw-bold"
+                >All Orders Over $79!</a
+              >
+    
+              <!-- button close-->
+              <button
+                type="button"
+                class="btn-close btn-close-white position-absolute"
+                style="top: -0.7rem; right: 0.5rem"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+    
+            <!-- Right -->
+            <div>
+              <a
+                href="#"
+                class="text-white text-decoration-none me-2 link-info transition-hover"
+                >Track Order</a
+              >
+              <span class="fw-semibold pe-1 text-dark">.</span>
+              <a
+                href="#"
+                class="text-white text-decoration-none me-2 link-info transition-hover"
+                >Register</a
+              >
+              <small class="fw-semibold pe-2 text-dark">.</small>
+              <a
+                href="#"
+                class="text-white text-decoration-none link-info transition-hover"
+                >Login</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- End Top Bar ----------------------------------------------------------------------------------------->
+        <!-- Nav Bar 1 ----------------------------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg bg-white border-bottom py-3">
+          <div class="container">
+            <!-- الشعار -->
+            <a
+              style="font-size: 35px"
+              class="navbar-brand fw-bold afont text-lg-start pt-0"
+              href="index.html"
+            >
+              Believe
+            </a>
+    
+            <!-- زر التبديل للشاشات الصغيرة -->
+            <button
+              class="navbar-toggler border-dark border border-3 rounded-pill"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarContent"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- المحتوى القابل للطي -->
+            <div
+              style="margin-right: 10rem; font-size: 13px"
+              class="collapse navbar-collapse justify-content-center mt-2 me-5"
+              id="navbarContent"
+            >
+              <!-- قائمة التنقل -->
+              <ul class="navbar-nav mb-2 mb-lg-0 gap-4 fw-bold">
+                <li class="nav-item">
+                  <a class="nav-link text-dark fw-bold" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark transition-hover link-info" href="./Blog.html"
+                    >BLOG</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark transition-hover link-info" href="./Blog-Post.html"
+                    >BLOG POST</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-info transition-hover link-info" href="./Contact.html"
+                    >CONTACT</a
+                  >
+                </li>
+                <li class="nav-item" style="max-width: 40%">
+                  <a
+                    style="background-color: #7880eb9d"
+                    class="afont nav-link rounded-pill text-dark transition-hover link-primary ls-wider ps-3"
+                    href="#"
+                  >
+                    BUY PRO VERSION <i class="bi bi-gem ms-1 text-primary"></i>
+                  </a>
+                </li>
+              </ul>
+    
+              <!--  حقل البحث الظاهر في الشاشات الصغيرة -->
+              <div class="d-lg-none mt-4 w-75">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-1 border-info"
+                    type="search"
+                    placeholder="Search...🤔"
+                    aria-label="Search"
+                  />
+                  <a href="index.html">
+                    <button
+                      class="btn btn-info border-info transition-hover link-info"
+                      type="submit"
+                    >
+                      <i
+                        class="bi bi-search text-white transition-hover link-dark"
+                      ></i>
+                    </button>
+                  </a>
+                </form>
+              </div>
+    
+              <!-- الأيقونات في الشاشات الصغيرة -->
+              <div class="d-flex d-lg-none gap-4 mt-3 w-100">
+                <a href="index.html" class="position-relative text-decoration-none">
+                  <i style="color: #3e396b" class="bi bi-heart fs-1"></i>
+                  <span
+                    class="text-white position-absolute top-50 start-100 translate-middle badge rounded-pill bg-dark"
+                    >5</span
+                  >
+                </a>
+                <a href="index.html" class="position-relative text-decoration-none">
+                  <i style="color: #3e396b" class="bi bi-bag fs-1"></i>
+                  <span
+                    class="text-white position-absolute top-50 start-100 translate-middle badge rounded-pill bg-dark"
+                    >2</span
+                  >
+                </a>
+              </div>
+            </div>
+    
+            <!--  الأيقونات في الشاشات الكبيرة -->
+            <div
+              class="position-relative d-flex d-none d-lg-flex align-items-center gap-4"
+            >
+              <!-- زر البحث المنسدل -->
+              <div class="dropdown">
+                <button
+                  style="color: #3e396b; margin-right: -1rem"
+                  class="btn btn-white"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-search fs-3" style="color: #3e396b"></i>
+                </button>
+                <div
+                  class="position-absolute top-25 start-100 mt-3 translate-middle-x dropdown-menu"
+                  style="background-color: #3e396b; min-width: 260px"
+                >
+                  <form class="px-1 d-flex" role="search">
+                    <input
+                      class="form-control me-1 border-info"
+                      type="search"
+                      placeholder="Search...🤔"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-dark" type="submit">
+                      <i class="bi bi-search"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+    
+              <!-- أيقونة القلب -->
+              <a
+                href="index.html"
+                class="position-relative text-decoration-none ms-"
+              >
+                <i style="color: #3e396b" class="bi bi-heart fs-3"></i>
+                <span
+                  class="text-white position-absolute top-50 start-100 translate-middle-x badge rounded-pill bg-dark"
+                  >5</span
+                >
+              </a>
+    
+              <!-- أيقونة السلة -->
+              <a href="index.html" class="position-relative text-decoration-none">
+                <i style="color: #3e396b" class="bi bi-bag fs-3"></i>
+                <span
+                  class="text-white position-absolute top-50 start-100 translate-middle-x badge rounded-pill bg-dark"
+                  >2</span
+                >
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!-- End Nav Bar 1 ----------------------------------------------------------------------------------------------->
+    
+        <!--  Nav Bar 2----------------------------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg bg-dark py-0 d-block mb-0">
+          <div class="container justify-content-center">
+            <!-- زر التوغل -->
+            <button class="navbar-toggler border-2 border ms-auto rounded-pill my-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+        
+            <!-- قائمة التنقل الرئيسية القابلة للطي -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+              <ul class="navbar-nav gap-2 text-uppercase small fw-bold" style="font-size: 0.8rem">
+                <li class="nav-item">
+                  <a  style="padding-top: 12px;" class="nav-link  text-info border-top border-3 border-info transition-hover link-info px-2"
+                    href="index.html">Electronics</a>
+                </li>
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+        
+                <!-- زر القائمة المنسدلة MEN -->
+                <li class="nav-item dropdown ms-auto d-flex justify-content-end d-lg-block d-sm-none">
+                  <button class="btn mt-2 fw-bold text-secondary  border-secondary border-0 dropdown-toggle transition-hover link-info"
+                    data-bs-auto-close="false" id="menDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+                    type="button">
+                    MEN
+                  </button>
+                  <ul class="dropdown-menu px-2 py-1" aria-labelledby="menDropdown" style="min-width: 1200px;">
+                    <div class="row">
+                      <!-- قائمة الملابس -->
+                      <div class="col-md-2">
+                        <h6 class="fw-bold mt-2 text-dark">ALL CLOTHING</h6>
+                        <ul class="list-unstyled" style="font-size: 12px; line-height: 1.8rem;">
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">T-Shirts</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Casual & Party Wear Shirts</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Jeans</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Formal Shirts</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Sports Wear</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Trousers</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Suits and Blazers</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Ethnic Wear</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Inner & Sleep Wear</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Accessories</a></li>
+                        </ul>
+                      </div>
+        
+                      <!-- قائمة الأحذية -->
+                      <div class="col-md-2 border-start border-1 ps-4 border-secondary">
+                        <h6 class="fw-bold  mt-2 text-dark">ALL FOOTWEAR</h6>
+                        <ul class="list-unstyled" style="font-size: 12px; line-height: 26.5px;">
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Flats</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Heels</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Bellies</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Wedges</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Slippers & Flip-Flop's</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Sports Shoes</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Sports Sandals</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Casual Shoes</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Formal Shoes</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Ethnic</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Boots</a></li>
+                          <li><a class="text-decoration-none text-secondary transition-hover link-info" href="#">Wedges</a></li>
+    
+                        </ul>
+                      </div>
+        
+                      <!-- المنتجات  -->
+                      <div class="col-md-4 position-relative">
+                        <h6 class="fw-bold mt-2 text-dark">FEATURED PRODUCTS</h6>
+                        <div class="d-flex">
+                          <!-- كاروusel أول -->
+                          <div class="ms-0 text-center">
+                            <div id="slides-with-indicators" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                              <div class="carousel-indicators position-absolute top-0 end-0 m-0 mt-2 ms-0">
+                                <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="0"
+                                  class="active bg-warning rounded-circle" style="width: 10px; height: 10px;" aria-current="true"
+                                  aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="1"
+                                  class="bg-warning rounded-circle" style="width: 10px; height: 10px;" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="2"
+                                  class="bg-warning rounded-circle" style="width: 10px; height: 10px;" aria-label="Slide 3"></button>
+                              </div>
+                              <div class="carousel-inner rounded">
+                                <div class="carousel-item active text-center">
+                                  <img src="./image/ai-generated-8751040_1280.png" width="200" height="200" class="mb-4 rounded" alt="Slide 1" />
+                                <div class="carousel-caption">
+                                  <div class="pe-auto">
+                                  <div class="position-absolute d-flex flex-row mb-1 pb-5 gap-3  top-0 start-25 translate-middle-y">
+                                  <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                  <button class="btn btn-outline-dark rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                  <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                                </div>
+                              
+                                  <div class="position-absolute bottom-0 start-25 mb-2 ms-0">
+                                    <button style="font-size:15px;" class="btn btn-outline-dark border-2 text-warning fw-bold p-2 px-0 py-0 rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                                  </div>
+                                </div>
+                                </div>
+                                </div> 
+                              
+                                <div class="carousel-item text-center rounded">
+                                  <img src="./image/jacket-1.jpg" width="200" height="200" class="mb-4 rounded" alt="Slide 2" />
+                                  <div class="carousel-caption">
+                                    <div class="pe-auto">
+                                    <div class="position-absolute d-flex flex-row mb-1 pb-5 gap-3  top-0 start-25 translate-middle-y">
+                                    <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                    <button class="btn btn-outline-dark rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                    <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                                  </div>
+                              
+                                    <div class="position-absolute bottom-0 start-25 mb-2 ms-0">
+                                      <button style="font-size:15px;" class="btn btn-outline-dark border-2 text-warning fw-bold p-2 px-0 py-0 rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              
+                                <div class="carousel-item text-center rounded">
+                                  <img src="./image/shoes-1.jpg" width="200" height="200" class="mb-4 rounded" alt="Slide 2" />
+                                  <div class="carousel-caption">
+                                    <div class="pe-auto">
+                                    <div class="position-absolute d-flex flex-row mb-1 pb-5 gap-3  top-0 start-25 translate-middle-y">
+                                    <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                    <button class="btn btn-outline-dark rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                    <button class="btn btn-outline-dark rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                                  </div>
+    
+                                    <div class="position-absolute bottom-0 start-25 mb-2 ms-0">
+                                      <button style="font-size:15px;" class="btn btn-outline-dark border-2 text-warning  fw-bold p-2 px-0 py-1 rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                                <!-- carousel-item-->
+                            <p class="mb-0">STRIPED MEN'S ROUND NECK T-SHIRT</p>
+                            ⭐⭐⭐⭐☆
+                            <p>
+                              <s>$19.00</s> <span class="text-primary">$15.00</span>
+                            </p>
+                          </div>
+                          <div class="text-center ms-2 ">
+                            <div id="slides-with-indicators" class="carousel carousel-fade" data-bs-interval="2000">
+      
+                              <!-- Indicators -->
+                              <div class="carousel-indicators position-absolute top-0 end-0 m-0 mt-2 ms-0  ">
+                                <button 
+                                  type="button" 
+                                  data-bs-target="#slides-with-indicators" 
+                                  data-bs-slide-to="0" 
+                                  class="active bg-warning rounded-circle"
+                                  style="width: 10px; height: 10px;" 
+                                  aria-current="true" 
+                                  aria-label="Slide 1">
+                                </button>
+                                <button 
+                                  type="button" 
+                                  data-bs-target="#slides-with-indicators" 
+                                  data-bs-slide-to="1" 
+                                  class="bg-warning rounded-circle"
+                                  style="width: 10px; height: 10px;" 
+                                  aria-label="Slide 1">
+                                </button>
+                                <button 
+                                  type="button" 
+                                  data-bs-target="#slides-with-indicators" 
+                                  data-bs-slide-to="2" 
+                                  class="bg-warning rounded-circle"
+                                  style="width: 10px; height: 10px;" 
+                                  aria-label="Slide 2">
+                                </button>
+                              </div>
+                            
+                              <!-- Slides -->
+                              <div class="carousel-inner rounded ">
+                                <div class="carousel-item active text-center">
+                                  <img src="./image/ai-generated-8702726_1280.jpg" width="200" height="200" class="mb-4 rounded" alt="Slide 1" />
+                            <div class="carousel-caption">
+                                    <div class="pe-auto">
+                                    <div class="d-flex flex-row mb-3 pb-0 gap-3  ">
+                                    <button class="btn btn-outline-dark border-2 rounded-circle p-1 px-2 "><i class="bi bi-heart text-warning fw-bold"></i></button>
+                                    <button class="btn btn-outline-dark border-2 rounded-circle p-1 px-2"><i class="bi bi-arrow-left-right text-warning fw-bold"></i></button>
+                                    <button class="btn btn-outline-dark border-2 rounded-circle p-1 px-2 "><i class="bi bi-search text-warning fw-bold"></i></button>
+                                  </div>
+                                  <div class=" pb-5 mb-5 ">
+                                    <button style="font-size:15px;" class="btn btn-outline-dark border-2 border-2 text-warning  fw-bold py-0 px-0  rounded-pill"><i class="bi bi-bag ps-3 "></i> ADD TO CART</button>
+                                  </div>
+                                </div>
+                                </div>
+                            <p class="mb-0">STRIPED MEN'S ROUND NECK T-SHIRT</p>
+                            ⭐⭐⭐⭐☆
+                            <p>
+                              <s>$19.00</s> <span class="text-primary">$15.00</span>
+                            </p>
+                          </div>
+                        </div>
+                          <div class="col-md-2">
+                          <img
+                          style="position: absolute; top: 0; right: -21rem; width: 19rem; height: 322px;"
+                          src="./image/mega-offers.jpg"
+                            class="img   rounded"
+                            alt="Jeans Ad"
+                          />
+                        </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+        
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Women</a>
+                </li>
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Baby & Kids</a>
+                </li>
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Books & Media</a>
+                </li>
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Home & Kitchen</a>
+                </li>
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">More Stores</a>
+                </li>
+                <li class="divider text-secondary d-none d-lg-block">|</li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary pt-3 px-2 transition-hover link-info" href="index.html">Offers Zone</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html"><img src="./image/offers.png" alt="show" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <!--End Nav Bar  2----------------------------------------------------------------------------------------------->
+<!-- Hero Section -->
+<div class="position-relative overflow-hidden mb-0" style="height: 250px;">
+  <img src="./image/Untitled.png" alt="Group Hero" class="w-100 object-fit-cover d-block">
+
+  <div class="d-lg-flex d-sm-none container h-100 d-flex align-items-center position-absolute top-0 start-0 text-white">
+    <div style="background-color: #e0dfdf; margin-bottom: 150px; margin-left: 87.5px; font-size: 10px;">
+      <h2 style="font-size: 50px;" class="afont rounded-pill fw-bold text-dark">
+        CONTACT US <i class="bi bi-envelope-fill"></i>
+      </h2>
+    </div>
+  </div>
+</div>
+<!-- End Hero Section -->
+
+<!-- Contact Section -->
+<section style="margin-top: -110px;" class="mt-n5">
+  <div class="container mt-5">
+    <div class="row mb-5">
+
+      <!-- Left Column: Description and Contact Info -->
+      <div class="col-md-6">
+        <h6 class="text-uppercase fw-bold afont">Direction</h6>
+        <br>
+        <p class="fs-5" style="font-family: Handlee;">
+          <span class="text-info fs-5">Believe is WooCommerce store</span>
+          is the most popular for cloth. And it's available for at themeorest. Packed full of features, perfectly integrated into your self-hosted WordPress website.
+        </p>
+        <br>
+        <p class="text-muted fs-5">
+          Nunc eu consequat metus. Nunc ultrices maximus ipsum malesuada porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas fringilla nulla eu libero euismod condimentum. Sed eu rutrum ante. Sed ut lacus nec leo rhoncus scelerisque non eget nunc.
+        </p>
+        <br>
+
+        <h6 class="text-uppercase fw-bold mt-4">Online Store Contact</h6>
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Phone: (941) 364-7748</p>
+            <p>Fax: (941) 364-2322</p>
+            <p>office@yourdomain.com</p>
+            <p>www.yourdomain.com</p>
+          </div>
+          <div class="col-sm-6">
+            <p>Phone: (941) 364-7748</p>
+            <p>Fax: (941) 364-2322</p>
+            <p>office@yourdomain.com</p>
+            <p>www.yourdomain.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Contact Form -->
+      <div class="col-md-6">
+        <h6 class="text-uppercase fw-bold afont">Contact Form</h6>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name*</label>
+            <input type="text" class="form-control" id="name" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your E-mail*</label>
+            <input type="email" class="form-control" id="email" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject*</label>
+            <input type="text" class="form-control" id="subject" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message*</label>
+            <textarea class="form-control" id="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info text-white">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+ <!-- Google Map -->
+ <div class="afont fs-1 text-center mb-4">MAP</div>
+ <div class="container d-flex justify-content-center mb-5 ">
+<div class="border-5  border border-pill border-dark map-container" style="width: 100%; height: 500px;">
+  <iframe 
+   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558895.1517377784!2d-91.05476986834063!3d41.85553709998929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee5e6ff1f86019%3A0xc6ef634a57c759d9!2z2KLZitmI2KfYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2seg!4v1747843636969!5m2!1sar!2seg"
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+</div>
+ <!-- End Google Map -->
+<!-- footer ------------------------------------------------------------------------------------------------------------------------------->
+<footer style="background-color: #242424;" class="text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+  
+        <!-- العمود الأول (كل شيء عدا الاشتراك) -->
+        <div class="col-12 col-md-9">
+          <div class="row">
+  
+            <!-- Welcome to -->
+            <div class="col-12 col-md-4 mb-4">
+              <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">Welcome to</h6>
+              <h4 class="fw-bold afont fs-2">Believe</h4>
+              <p style="font-size: 15px;">Believe isCommerce WordPress theme. It <br> has <br>
+                everything you need to start today!<br>
+                <small class="text-secondary">Get this theme on ThemeForest!</small>
+              </p>
+              <div class="d-flex gap-4 fs-5">
+                <a href="#"><i class="fab fa-facebook-f text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter text-info"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                <a href="#"><i style="color: orange;" class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p text-danger"></i></a>
+              </div>
+            </div>
+  
+            <!-- روابط سريعة -->
+            <div class="col-6 col-md-2 mb-4">
+              <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">Quick Links</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Home</a></li>
+                <li><a href="#" class="text-light transition-hover link-info text-decoration-none">About Us</a></li>
+                <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Contact Us</a></li>
+                <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Deals</a></li>
+                <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Blog</a></li>
+                <li><a href="#" class="text-light transition-hover link-info text-decoration-none">Help</a></li>
+              </ul>
+            </div>
+  
+            <!-- شروط وسياسات -->
+            <div class="col-6 col-md-2 mb-4">
+              <ul class="list-unstyled mt-5">
+                <li><a href="#" class="text-light text-decoration-none">Terms & Condition</a></li>
+                <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Legal Disclaimer</a></li>
+              </ul>
+            </div>
+  
+            <!-- حسابي -->
+            <div class="col-6 col-md-2 mb-4">
+              <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">My Account</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-light text-decoration-none">My Account</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Personal Information</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Addresses</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Orders</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Wishlist</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Track Order</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- العمود الثاني (الاشتراك) -->
+        <div class="col-12 col-md-3 mb-4">
+          <h6 style="font-size:15px; font-family: Bebas;" class="text-uppercase text-secondary">Subscribe for offers & updates</h6>
+          <p>Enter your email and we’ll send you a coupon with 10% off your next order. Add any text here</p>
+          <input type="email" class="form-control mb-2" placeholder="Enter Your email... 💌">
+          <button class="btn btn-info w-100 text-white fw-bold">Subscribe Now</button>
+        </div>
+  
+      </div>
+    </div>
+  
+    <!-- آخر جزء -->
+    <div class="text-center text-secondary pt-4 pb-3" style="margin-top: 2rem; font-size: 0.9rem; background-color: #1a1a1a; border-top: 1px solid #333;">
+      Copyright 2018. Designed and Developed by 
+      <span class="text-light">BootstrapMart</span> & Distributed by 
+      <span class="text-light">ThemeWagon</span>
+    </div>
+  </footer>
+  <!-- end footer------------------------------------------------------------------------------------------------------ -->
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./enable-stuff.js"></script>
